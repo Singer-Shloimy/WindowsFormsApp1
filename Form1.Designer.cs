@@ -48,7 +48,7 @@ namespace WindowsFormsApp1
             // 
             this.checkBox2.AutoSize = true;
             this.checkBox2.ForeColor = System.Drawing.Color.Lime;
-            this.checkBox2.Location = new System.Drawing.Point(446, 129);
+            this.checkBox2.Location = new System.Drawing.Point(446, 112);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(59, 21);
             this.checkBox2.TabIndex = 1;
