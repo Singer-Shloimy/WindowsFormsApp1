@@ -7,9 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-//So what does this do
+//So what does this do?
 namespace WindowsFormsApp1
-{
+{//this is what?
     public partial class Form1 : Form
     {
         public Form1()
