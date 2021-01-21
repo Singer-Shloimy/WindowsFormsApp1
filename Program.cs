@@ -10,7 +10,7 @@ namespace WindowsFormsApp1
     {
        
         
-        /// </summary>
+       
         [STAThread]
         static void Main()
         {
