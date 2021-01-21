@@ -31,6 +31,7 @@ namespace WindowsFormsApp1
         {
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.weee = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // checkBox1
@@ -54,11 +55,20 @@ namespace WindowsFormsApp1
             this.checkBox2.Text = "Cars\r\n";
             this.checkBox2.UseVisualStyleBackColor = true;
             // 
+            // weee
+            // 
+            this.weee.FormattingEnabled = true;
+            this.weee.Location = new System.Drawing.Point(219, 189);
+            this.weee.Name = "weee";
+            this.weee.Size = new System.Drawing.Size(121, 24);
+            this.weee.TabIndex = 2;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(613, 346);
+            this.Controls.Add(this.weee);
             this.Controls.Add(this.checkBox2);
             this.Controls.Add(this.checkBox1);
             this.Name = "Form1";
@@ -72,6 +82,7 @@ namespace WindowsFormsApp1
 
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.ComboBox weee;
     }
 }
 
