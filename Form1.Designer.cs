@@ -58,9 +58,9 @@ namespace WindowsFormsApp1
             // weee
             // 
             this.weee.FormattingEnabled = true;
-            this.weee.Location = new System.Drawing.Point(219, 189);
+            this.weee.Location = new System.Drawing.Point(66, 60);
             this.weee.Name = "weee";
-            this.weee.Size = new System.Drawing.Size(121, 24);
+            this.weee.Size = new System.Drawing.Size(146, 24);
             this.weee.TabIndex = 2;
             // 
             // Form1
