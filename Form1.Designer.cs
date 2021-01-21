@@ -93,7 +93,7 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.ComboBox woooo;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.Border3DStyle DStyle;
+        
     }
 }
 
