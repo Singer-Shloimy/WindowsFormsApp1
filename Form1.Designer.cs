@@ -33,6 +33,7 @@ namespace WindowsFormsApp1
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.weee = new System.Windows.Forms.ComboBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // checkBox1
@@ -71,11 +72,23 @@ namespace WindowsFormsApp1
             this.dateTimePicker1.Size = new System.Drawing.Size(229, 22);
             this.dateTimePicker1.TabIndex = 3;
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Aqua;
+            this.button1.ForeColor = System.Drawing.Color.Navy;
+            this.button1.Location = new System.Drawing.Point(432, 227);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(86, 24);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "Click here\r\n";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(613, 346);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.weee);
             this.Controls.Add(this.checkBox2);
@@ -93,6 +106,7 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.ComboBox weee;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.Button button1;
     }
 }
 
