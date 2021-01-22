@@ -67,6 +67,11 @@ namespace WindowsFormsApp1
             // 
             // dateTimePicker1
             // 
+            this.dateTimePicker1.CalendarForeColor = System.Drawing.Color.Navy;
+            this.dateTimePicker1.CalendarMonthBackground = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.dateTimePicker1.CalendarTitleBackColor = System.Drawing.Color.Blue;
+            this.dateTimePicker1.CalendarTitleForeColor = System.Drawing.Color.Aqua;
+            this.dateTimePicker1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.dateTimePicker1.Location = new System.Drawing.Point(51, 137);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(229, 22);
